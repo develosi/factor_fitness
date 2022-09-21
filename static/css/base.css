@@ -54,6 +54,10 @@ body {
     color: #000 !important;
 }
 
+.text-yellow {
+    color: #E6EC39 !important;
+}
+
 .border-black {
     border: 1px solid black !important;
 }
