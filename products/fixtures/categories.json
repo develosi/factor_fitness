@@ -19,8 +19,8 @@
       "pk": 3,
       "model": "products.category",
       "fields": {
-        "name": "clearance",
-        "friendly_name": "Clearance"
+        "name": "strength_equipment",
+        "friendly_name": "Strength Equipment"
       }
     },
     {
