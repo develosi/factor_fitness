@@ -4,8 +4,8 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001340155",
-        "name": "Ab Roller“,
-        "description": "The Ab Roller engages your entire core, with padded handles for comfort and grooved wheels for grip, you can now train your abs with purpose.”,
+        "name": "Ab Roller",
+        "description": "The Ab Roller engages your entire core, with padded handles for comfort and grooved wheels for grip, you can now train your abs with purpose.",
         "price": 39.99,
         "category": 2,
         "rating": 4.6,
@@ -18,8 +18,8 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001600425",
-        "name": “Aero Fan Bike”,
-        "description": "Premium steel frame. This multifunctional equipment features a premium steel frame that combines design and performance. Constructed from 14-gauge steel tubing with scratch-resistant and powder coated finished, this bike boasts durability in its uses.”,
+        "name": "Aero Fan Bike",
+        "description": "Premium steel frame. This multifunctional equipment features a premium steel frame that combines design and performance. Constructed from 14-gauge steel tubing with scratch-resistant and powder coated finished, this bike boasts durability in its uses.",
         "price": 699.99,
         "category": 2,
         "rating": 4.6,
@@ -32,7 +32,7 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001730010",
-        "name": “Battle Training Ropes”,
+        "name": "Battle Training Ropes",
         "description": "Whether training for sports, for health and fitness, or you want to simply look and feel great, our heavy ropes are the key. Made from the worlds strongest quality, premium materials so your weighted workout rope won’t start falling apart, even on concrete.",
         "price": 79.99,
         "category": 3,
@@ -46,7 +46,7 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001890157",
-        "name": “Combat Training Gloves”,
+        "name": "Combat Training Gloves",
         "description": "Features include inches of moulded foam padding making it the safest training glove to use. Comfortable ergonomic fit.",
         "price": 49.99,
         "category": 2,
@@ -60,8 +60,8 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002111605",
-        "name": “Wooden Plyo Gym Box”,
-        "description": “Ideal for Plyometric exercises, achieve moves to build strength and elasticity to jump higher and further.”,
+        "name": "Wooden Plyo Gym Box",
+        "description": "Ideal for Plyometric exercises, achieve moves to build strength and elasticity to jump higher and further.",
         "price": 99.99,
         "category": 2,
         "rating": 5,
@@ -74,7 +74,7 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002260206",
-        "name": “Gymnastic Rings”,
+        "name": "Gymnastic Rings",
         "description": "The Double Circle CrossFit compatible rings are crafted to perfection with the best quality wood so they can be incredibly strong and durable.",
         "price": 49.99,
         "category": 3,
@@ -88,8 +88,8 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002440521",
-        "name": “Kettlebell Weights”,
-        "description": “Our premium Kettlebells are made from gravity casting which is the most precise way to create a kettlebell. If a kettlebell is not gravity cast you risk not accurately casting the kettlebell to the same weight and dimensions every time.",
+        "name": "Kettlebell Weights",
+        "description": "Our premium Kettlebells are made from gravity casting which is the most precise way to create a kettlebell. If a kettlebell is not gravity cast you risk not accurately casting the kettlebell to the same weight and dimensions every time.",
         "price": 89.99,
         "category": 5,
         "rating": 4.4,
@@ -102,7 +102,7 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002601115",
-        "name": “Deep Tissue Massage Gun”,
+        "name": "Deep Tissue Massage Gun",
         "description": "Massage guns can effectively relieve muscle fatigue and pain, promote blood circulation, relieve lactic acid, and let you enjoy your workouts more.",
         "price": 99.99,
         "category": 8,
@@ -116,8 +116,8 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002690715",
-        "name": “Rubber Encased Hex Dumbbells Set“,
-        "description": "High quality solid cast dumbbell set encased in rubber, dumbbells will last throughout the years while protecting your floor.”,
+        "name": "Rubber Encased Hex Dumbbells Set",
+        "description": "High quality solid cast dumbbell set encased in rubber, dumbbells will last throughout the years while protecting your floor.",
         "price": 89.99,
         "category": 5,
         "rating": 4.7,
@@ -130,7 +130,7 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002701115",
-        "name": "Speed Jump Rope”,
+        "name": "Speed Jump Rope",
         "description": "Designed with serious athletes in mind, the speed jump rope provides lasting durability. The flexible speed and power cables won’t kink, splinter, or snap.",
         "price": 34.99,
         "category": 4,
@@ -144,8 +144,8 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002761055",
-        "name": “High Density Gym Floor Tiles Set”,
-        "description": “Our thick floor tiles are designed for extreme durability. The quality rubber material offers serious shock-absorbing and anti-vibration features to accommodate weight lifting, deadlift, yoga, or any other activities on gym equipment. They come in a pack of 6.”,
+        "name": "High Density Gym Floor Tiles Set",
+        "description": "Our thick floor tiles are designed for extreme durability. The quality rubber material offers serious shock-absorbing and anti-vibration features to accommodate weight lifting, deadlift, yoga, or any other activities on gym equipment. They come in a pack of 6.",
         "price": 99.99,
         "category": 2,
         "rating": 3,
@@ -158,8 +158,8 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002820069",
-        "name": “Ultimate Tractor Tyre 70kg”,
-        "description": "These tyres have plenty of tread to get hold of and weigh in at 70KG Each, The Ultimate full body workout.“,
+        "name": "Ultimate Tractor Tyre 70kg",
+        "description": "These tyres have plenty of tread to get hold of and weigh in at 70KG Each, The Ultimate full body workout.",
         "price": 119.99,
         "category": 3,
         "rating": 4.6,
@@ -167,4 +167,172 @@
         "image": "12_strength_training_tyre.jpg"
       }
     },
-  
+    {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002820147",
+        "name": "Climber T-Shirt",
+        "description": "Skin-Friendly seamlines and tagless for comfort, This climbing tee provide full range of motion with a classic fit",
+        "price": 29.99,
+        "category": 9,
+        "rating": 3.2,
+        "image_url": "https://imgbox.com/RePuevV8",
+        "image": "13_climber_tee.jpg"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002910572",
+        "name": "Mens Grey Tracksuit",
+        "description": "Mens two piece running sweatsuit, athletic pullover hoodie. Adjustable drawstring, Great for all seasons, suitable for daily wear.",
+        "price": 84.99,
+        "category": 7,
+        "rating": 4.7,
+        "image_url": "https://imgbox.com/b8UNhH0C",
+        "image": "14_mens_grey_tracksuit.jpg"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002990740",
+        "name": "Mens Muscle Cut Off T-Shirt",
+        "description": "Soft, lightweight and stretchy cotton fabric, keep you cool, dry and moving comfortably during your workout.",
+        "price": 29.99,
+        "category": 9,
+        "rating": 4.8,
+        "image_url": "https://imgbox.com/tFnHm8T7",
+        "image": "15_mens_muscle_tee.jpg"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003050248",
+        "name": "Mens Longsleeve Running Top",
+        "description": "Soft, breathable and Quick Dry moisture-wicking fabrics keep you dry, brings more comfort at any occasions",
+        "price": 64.99,
+        "category": 7,
+        "rating": 4.4,
+        "image_url": "https://imgbox.com/NxsQrak7",
+        "image": "16_thermal_all_weather_top.jpg"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003070787",
+        "name": "Womens Classic Loose Fit T-Shirt",
+        "description": "Smooth and comfortable 100% cotton jersey fabric.",
+        "price": 29.99,
+        "category": 9,
+        "rating": 4.4,
+        "image_url": "https://imgbox.com/JXcOb0Y6",
+        "image": "17_womens_loose_tee.jpg"
+      }
+    },
+    {
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003090182",
+        "name": "Womens Loose Fit Yoga Top",
+        "description": "Comfort Fit, lightweight, moisture-wicking, breathable active stretch fabric.",
+        "price": 27.99,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "https://imgbox.com/xWzFv0cX",
+        "image": "18_womens_loose_yoga_tee.jpg"
+      }
+    },
+    {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003090186",
+        "name": "Womens Yoga Stripe Leggings",
+        "description": "Yoga leggings, Squat Proof, 4 Way-Stretch, Buttery Soft, Sweat Wicking, Breathable.",
+        "price": 39.99,
+        "category": 1,
+        "rating": 5,
+        "image_url": "https://imgbox.com/6fuoqGom",
+        "image": "19_womens_yoga_leggings.jpg"
+      }
+    },
+    {
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003161326",
+        "name": "Womens Workout Two Piece With Shorts",
+        "description": "Suitable for sport, gym, yoga, exercise, fitness, running, jogging, outdoor, any type of workout, or everyday use. Perfect for an everyday active lifestyle.",
+        "price": 73.99,
+        "category": 6,
+        "rating": 4.7,
+        "image_url": "https://imgbox.com/dVVxbnOE",
+        "image": "20_womens_studio_two_pc_shorts.jpg"
+      }
+    },
+    {
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003230723",
+        "name": "Womens Workout Two Piece With Leggings",
+        "description": "Suitable for sport, gym, yoga, exercise, fitness, running, jogging, outdoor, any type of workout, or everyday use. Perfect for an everyday active lifestyle.",
+        "price": 84.99,
+        "category": 6,
+        "rating": 4.3,
+        "image_url": "https://imgbox.com/Ytv02sJq",
+        "image": "21_womens_two_pc_studio_outfit.jpg"
+      }
+    },
+    {
+      "pk": 22,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003270936",
+        "name": "Mens Performance T-Shirt",
+        "description": "Dri-power moisture wicking technology keeps you cool and dry during workout, Loose casual fit.",
+        "price": 38.99,
+        "category": 9,
+        "rating": 5,
+        "image_url": "https://imgbox.com/LUl7HqLM",
+        "image": "22_mens_loose_gym_tee.jpg"
+      }
+    },
+    {
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003360384",
+        "name": "Womens Lightweight Performance Hoodie",
+        "description": "Performance Hoodie. Ideal for Jogging, Running, Workouts and more.",
+        "price": 49.99,
+        "category": 6,
+        "rating": 4.8,
+        "image_url": "https://imgbox.com/pNw4Zkmh",
+        "image": "23_womens_tracksuit_hoodie.jpg"
+      }
+    },
+    {
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003440111",
+        "name": "Womens Intense Workout Two Piece",
+        "description": "This pro-fabric two piece is ideal for intense workouts. Nylon is perfect for people with sensitive skin, soft and breathable. The Polyester is lightweight, quick-drying and durable.",
+        "price": 79.99,
+        "category": 6,
+        "rating": 3.8,
+        "image_url": "https://imgbox.com/fJWeWEhF",
+        "image": "24_womens_sprint_runner_two_pc.jpg"
+      }
+    }
+]
