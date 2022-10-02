@@ -9,7 +9,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
 }
 
 /* Code used from Bulma for using with FontAwesome Icons to center position */
