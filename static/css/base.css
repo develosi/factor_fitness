@@ -9,7 +9,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Code used from Bulma for using with FontAwesome Icons to center position */
@@ -22,7 +22,7 @@ body {
 }
 
 .logo-font {
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
 }
 
@@ -55,7 +55,7 @@ body {
     color: #000 !important;
 }
 
-.factor-green {
+.text-green {
     color: #00cd8f !important;
 }
 
