@@ -139,6 +139,31 @@
     {% block content %}
     {% endblock %}
 
+    <!-- footer -->
+    <footer class="bg-black footer-container mt-5">
+        <div class="justify-content-center pt-3">
+            <a href="{% url 'home' %}" class="nav-link">
+                <h3 class="logo-font text-green my-0 text-center"><strong>FACTOR</strong><strong style="color:#ffff"> FITNESS</strong></h3>
+            </a>
+        </div>
+        <ul class="nav justify-content-center pt-5">
+            <li class="nav-item">
+              <a class="nav-link text-green" target="_blank" rel="noopener" aria-label="Visit our Facebook page" href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green" target="_blank" rel="noopener" aria-label="Visit our Twitter page" href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green" target="_blank" rel="noopener" aria-label="Visit our Instagram page" href="https://instagram.com"><i class="fab fa-instagram-square fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green" target="_blank" rel="noopener" aria-label="Visit our YouTube page" href="https://youtube.com"><i class="fab fa-youtube-square fa-2x"></i></a>
+            </li>
+        </ul>
+        <p class="py-5 text-center">© 2022 FACTOR FITNESS</p>
+    </footer>
+    <!-- /footer -->
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
