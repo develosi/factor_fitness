@@ -18,6 +18,17 @@
         </li>
 
         <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="programs-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <h5>Programs</h5>
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="programs-link">
+                <a href="{% url 'products' %}?category=3_month_programs" class="dropdown-item">3 Month Programs</a>
+                <a href="{% url 'products' %}?category=1_year_programs" class="dropdown-item">1 Year Programs</a>
+                <a href="{% url 'products' %}?category=3_month_programs,1_year_programs" class="dropdown-item">All Programs</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <h5>Clothing</h5>
             </a>

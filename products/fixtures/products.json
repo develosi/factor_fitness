@@ -334,5 +334,33 @@
         "image_url": "https://imgbox.com/fJWeWEhF",
         "image": "24_womens_sprint_runner_two_pc.jpg"
       }
+    },
+    {
+      "pk": 25,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003440112",
+        "name": "3 Month Personal Training Program",
+        "description": "The ultimate 3 month personal training program. Whatever your unique fat loss or muscle building goal, our bespoke transformation programs are designed to deliver maximum results. We help you define your goals then create the most effective training and nutrition plan for results. We give you everything you need to succeed with your own online personal trainer.",
+        "price": 89.99,
+        "category": 10,
+        "rating": 4.8,
+        "image_url": "https://imgbox.com/7XXL7VbM",
+        "image": "25_3monthprogram.jpg"
+      }
+    },
+    {
+      "pk": 26,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5003440113",
+        "name": "1 Year Personal Training Program",
+        "description": "The ultimate 1 year personal training program. Whatever your unique fat loss or muscle building goal, our bespoke transformation programs are designed to deliver maximum results. We help you define your goals then create the most effective training and nutrition plan for results. We give you everything you need to succeed with your own online personal trainer.",
+        "price": 299.99,
+        "category": 11,
+        "rating": 4.6,
+        "image_url": "https://imgbox.com/Ys758L2o",
+        "image": "26_1yearprogram.jpg"
+      }
     }
 ]
