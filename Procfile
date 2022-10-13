@@ -1,0 +1,1 @@
+web: gunicorn factor_fitness.wsgi:application

@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-&mq06rddoe_xo7ga^*(we#3q27w(s5&q#blye5r(%#)d9oslu6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['factorfitness.herokuapp.com', 'localhost']
 
 
 # Application definition
