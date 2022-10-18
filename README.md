@@ -1,8 +1,8 @@
 # FACTOR FITNESS
 
-![The Factor Fitness website shown on a variety of screen sizes](documentation/.png)
+![The Factor Fitness website shown on a variety of screen sizes](documentation/factor_fitness_mockup.png)
 
-Visit the deployed site: [FACTOR FITNESS](https://.herokuapp.com/) 
+Visit the deployed site: [FACTOR FITNESS](https://factorfitness.herokuapp.com/) 
 
 Factor Fitness is a............ 
 
@@ -81,20 +81,20 @@ The red was only used on the delete buttons so that these would stand out and en
 
 I wanted to make sure that the contrast of the colours was very well defined throughout the app, I used the recommended colours built into the Materialize CSS framework, maintaining consistency and ensuring that the colour spectrum would work for users with colour blindness.  
 
-![Colour Scheme](documentation/_colours.png) 
+![Colour Scheme](documentation/ff_colours.png) 
 #
 
 ### Typography
 
-Roboto 2.0 font was used throughout the app.
+Roboto font was used throughout the app.
 
 This font works well for the app design as it is simple and easy to read. 
 
-![Roboto Font Example](documentation/_font.png)
+![Roboto Font Example](documentation/roboto_font.png)
 
-League Spartan font was used for the logo design. 
+Bebas Neue font was used for the logo design. 
 
-![League Spartan Font Example](documentation/_spartan_font.png)
+![Bebas Neue Font Example](documentation/bebas_neue_font.png)
 #
 
 ### Wireframes
