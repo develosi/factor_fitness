@@ -1,8 +1,8 @@
 # Factor Fitness -  Testing
 
-![The Factor Fitness Website shown on a variety of screen sizes](documentation/mockup.....png)
+![The Factor Fitness Website shown on a variety of screen sizes](documentation/factor_fitness_mockup.png)
 
-Visit the deployed site: [Factor Fitness](https://project.herokuapp.com/)
+Visit the deployed site: [FACTOR FITNESS](https://factorfitness.herokuapp.com/)
 
 - - -
 
@@ -80,13 +80,13 @@ Most performance issues related to the MaterializeCSS library, I would like to s
 
 Results for desktop.
 
-![Factor Fitness desktop results](documentation/lighthouse_desktop.png)
+![Factor Fitness desktop results](documentation/screenshot_lighthouse_desktop.png)
 
 ### Mobile Results
 
 Results for mobile. 
 
-![Factor Fitness mobile results](documentation/lighthouse_mobile.png)
+![Factor Fitness mobile results](documentation/screenshot_lighthouse_mobile.png)
 
 ---
 

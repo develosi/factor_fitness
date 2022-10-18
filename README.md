@@ -95,41 +95,47 @@ This font works well for the app design as it is simple and easy to read.
 Bebas Neue font was used for the logo design. 
 
 ![Bebas Neue Font Example](documentation/bebas_neue_font.png)
+
+Bebas Neue font was also used for the main logo design. 
+
+![FACTOR FITNESS Logo](documentation/factor_fitness_logo.png)
 #
 
 ### Wireframes
 
 Wireframes were created using Balsamiq software for desktop, mobile and tablet.
 
-![Register Page Wireframes](documentation/wireframe_register.png)
+![Home Page Wireframes](documentation/wireframes_home.png)
 
-![Log In Page Wireframes](documentation/wireframe_login.png)
+![Sign Up Page Wireframes](documentation/wireframes_sign_up.png)
 
-![Register Page Wireframes](documentation/wireframe_profile.png)
+![Sign In Page Wireframes](documentation/wireframes_sign_in.png)
 
-![Projects Page Wireframes](documentation/wireframe_projects.png)
+![Profile Page Wireframes](documentation/wireframes_profile.png)
 
-![Add Project Page Wireframes](documentation/wireframe_add_project.png)
+![Products Page Wireframes](documentation/wireframes_products.png)
 
-![Edit Project Page Wireframes](documentation/wireframe_edit_project.png)
+![Product Details Page Wireframes](documentation/wireframes_product_details.png)
 
-![Tasks Page Wireframes](documentation/wireframe_tasks.png)
+![Shopping Bag Page Wireframes](documentation/wireframes_shopping_bag.png)
 
-![Add Task Page Wireframes](documentation/wireframe_add_task.png)
+![Checkout Page Wireframes](documentation/wireframes_checkout.png)
 
-![Edit Task Page Wireframes](documentation/wireframe_edit_task.png)
+![Checkout Success Page Wireframes](documentation/wireframes_checkout_success.png)
+
+![Add Product Page Wireframes](documentation/wireframes_add_product.png)
 #
 
 ### Database Schema 
 
-![Database Schema](documentation/schema.png)
+![Database Schema](documentation/factor_fitness_database_schema.png)
 #
 
 ### Development Build Process
 
 The build process of the app was completed in small incremental sections. 
 This can be observed in the git commits catalogued within the Github repository that can be found here:
-[Repository Commits](https://github.com/develosi/........../commits/main)
+[Repository Commits](https://github.com/develosi/factor_fitness/commits/main)
 
 Testing was carried out during the build, all testing documentation can be found at: [TESTING.md](TESTING.md)
 #
@@ -153,81 +159,117 @@ The Website is made up of xxxx pages and they all have content on them taken fro
 
 All Pages in the app are responsive and have a favicon of the FACTOR FITNESS FF Logo:
 
-![Factor Fitness Favicon](documentation/_favicon.png) 
+![Factor Fitness Favicon](documentation/ff_favicon.png) 
 
 #### Base Template 
 
 All pages throughout the website have these base template sections on them. The content for these sections is taken from the Base Template HTML page. 
 
-![Top Nav Bar Section](documentation/topnav_not_logged_in_screenshot.png)
+![Top Nav Bar Section](documentation/screenshot_top_nav.png)
 
-![Top Nav Bar Section When Logged In](documentation/topnav_logged_in_screenshot.png)
+![Footer Section](documentation/screenshot_footer.png)
 
-![Footer Section](documentation/footer_screenshot.png)
+#### Toast Messages
 
-#### Warning Messages
+Toast messages are also used throughout the site. 
 
-Warning flash messages and defensive programming warning modals are also used throughout the app. 
+![Toast Message](documentation/screenshot_add_to_bag_toast.png)
 
-![Pink Flash Warning Message](documentation/must_be_admin_screenshot.png)
+#### Home Page
 
-![Defensive Programming Modal](documentation/delete_warning_screenshot.png)
-
-#### The Home Page (Also the same as the Tasks Page)
-
-The Tasks/Home page shows all current outstanding tasks to be completed. The user can edit or delete these tasks.  
+The Home page shows all current outstanding tasks to be completed. The user can edit or delete these tasks.  
 
 The user can add a new task by clicking on the Add Task button which is animated. 
 
-![Tasks/Home Page](documentation/tasks_screenshot.png)
+![Home Page](documentation/screenshot_home.png)
 
-#### Register Page
+#### Sign Up Page
 
 The user can register for an account. 
 
-![Register Page](documentation/register_screenshot.png)
+![Sign Up Page](documentation/screenshot_sign_up.png)
 
-#### Login Page 
+#### Verify Email Message Page
+
+The user can register for an account. 
+
+![Verify Email Message Page](documentation/screenshot_verify_email.png)
+
+#### Confirm Email Page
+
+The user can register for an account. 
+
+![Confirm Email Link Page](documentation/screenshot_confirm_email_link.png)
+
+#### Sign In Page 
 
 A user that already has an account can log in. 
 
-![Login Page](documentation/login_screenshot.png)
+![Sign In Page](documentation/screenshot_sign_in.png)
 
 #### Profile Page
 
 The user can access the profile page, no content has been produced for the profile section yet. 
 
-![Profile Page](documentation/profile_screenshot.png)
+![Profile Page](documentation/screenshot_profile_page.png)
 
-#### Add Task Page
+#### Products Page
 
 The user can add a new task by completing the form and clicking on the plus symbol. 
 
-![Add Task Page](documentation/add_task_screenshot.png)
+![Products Page](documentation/screenshot_products.png)
 
-#### Edit Task Page
+#### Product Details Page
 
 The user can edit the task by completing the form and clicking on the plus symbol. 
 
-![Edit Task Page](documentation/edit_task_screenshot.png)
+![Product Details Page](documentation/screenshot_product_details.png)
 
-#### Projects Page
+#### Shopping Bag Page
 
 The user can view all current projects. 
 
-![Projects Page](documentation/projects_screenshot.png)
+![Shopping Bag Page](documentation/screenshot_shopping_bag.png)
 
-#### Add Project Page
+#### Checkout Page
 
 If the admin is logged in they can add a new project.
 
-![Add Project Page](documentation/add_project_screenshot.png)
+![Checkout Page](documentation/screenshot_checkout.png)
 
-#### Edit Project Page
+![Checkout Page Bottom Section](documentation/screenshot_checkout_bottom.png)
+
+#### Checkout Success Page
 
 If the admin is logged in they can edit a projects name. 
 
-![Edit Project Page](documentation/edit_project_screenshot.png)
+![Checkout Success Page](documentation/screenshot_checkout_success.png)
+
+#### Add A Product Page
+
+If the admin is logged in they can edit a projects name. 
+
+![Add A Product Page](documentation/screenshot_add_a_product.png)
+
+#### Edit A Product Page
+
+If the admin is logged in they can edit a projects name. 
+
+![Edit A Product Page](documentation/screenshot_edit_product.png)
+
+![Edit A Product Page Bottom Section](documentation/screenshot_edit_product_bottom.png)
+
+#### Product Edit & Delete Section
+
+If the admin is logged in they can edit a projects name. 
+
+![Admin Product and Delete buttons](documentation/screenshot_products_edit_delete.png)
+
+#### Sign Out Confirmation Page 
+
+A user that already has an account can log in. 
+
+![Sign Out Confirmation Page](documentation/screenshot_sign_out.png)
 
 #### Future Development
 
@@ -276,7 +318,7 @@ HTML, CSS, Javascript, Python
 
 * [PostgreSQL](https://www.postgresql.org/) - Relational database used.
 
-* [Flask](https://pypi.org/project/Flask/) - A Python Web Framework.
+* [Django](https://www.djangoproject.com/) - Open-source web framework, used as the main framework for the site.
 
 * [MaterializeCSS](https://materializecss.com/) - CSS Framework.
 
@@ -371,7 +413,7 @@ The site is deployed using Heroku. To deploy to Heroku:
 15. Type python3 and then once the python interpretor opens, we can run the following:
 
     ```bash
-    from debugist import db
+    from factor_fitness import db
     db.create_all()
     exit()
     ```
@@ -387,7 +429,7 @@ To fork the repository:
 
 1. Log in (or sign up) to Github.
 
-2. Go to the repository for this project, [Factor Fitness](https://github.com/develosi/.............).
+2. Go to the repository for this project, [Factor Fitness](https://github.com/develosi/factor_fitness).
 
 3. Click the Fork button in the top right corner.
 
@@ -397,7 +439,7 @@ To clone the repository:
 
 1. Log in (or sign up) to GitHub.
 
-2. Go to the repository for this project, [Factor Fitness](https://github.com/develosi/............).
+2. Go to the repository for this project, [Factor Fitness](https://github.com/develosi/factor_fitness).
 
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 
@@ -442,7 +484,7 @@ I would like to acknowledge the following people:
 
 * My Code Institute Mentor and Class Teacher 
 
-* My fellow class-mates  - For sharing all their struggles and accomplishments along the way with tackling Milestone project 3.
+* My fellow class-mates  - For sharing all their struggles and accomplishments along the way with tackling Milestone project 4.
 
 * The Code Institute Slack channel - Thanks to everyone that took the time to share their tips and advice.
 #
