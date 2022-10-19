@@ -1,4 +1,4 @@
-# Factor Fitness -  Testing
+# FACTOR FITNESS  -  Testing
 
 ![The Factor Fitness Website shown on a variety of screen sizes](documentation/factor_fitness_mockup.png)
 

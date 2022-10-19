@@ -4,7 +4,7 @@
 
 Visit the deployed site: [FACTOR FITNESS](https://factorfitness.herokuapp.com/) 
 
-Factor Fitness is a............ 
+Factor Fitness is a fictional e-commerce store that specialises in strength training programs, gym equipment and apparel. 
 
 At present the app is set up as a proof of concept to allow an admin user to be able to log in to create and delete projects. While normal users can log in and create or delete tasks to be completed for those projects. 
 
