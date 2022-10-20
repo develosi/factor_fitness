@@ -6,19 +6,12 @@ Visit the deployed site: [FACTOR FITNESS](https://factorfitness.herokuapp.com/)
 
 Factor Fitness is a fictional e-commerce store that specialises in strength training programs, gym equipment and apparel. 
 
-At present the app is set up as a proof of concept to allow an admin user to be able to log in to create and delete projects. While normal users can log in and create or delete tasks to be completed for those projects. 
+This project was done as part of my Diploma by Code Institute in Full Stack Web Application Development. The objective for this milestone project was to plan, design and develop a project with all the functionalities to work as an actual e-commerce website.
 
-superuser log in details are: 
+At present the site is set up as a proof of concept, it allows users to create accounts, verify email addresses and place orders with a Stripe testing API checkout. 
+Superusers are also able to log in and access the product management sections to add, delete or edit current products.
 
-Username: 
-
-Password:  
-
-Anyone can create a normal user account by registering a username and password, both of which need to be at least five characters long. 
-
-Some dummy content has already been created such as projects and outstanding tasks, this can be overwritten and edited and is just there for proof of concept.
-
-In its current form the app has many features missing that I would like to add. I have detailed out these possible features later on in this README file. Debugist was created as my fourth milestone project for the Code Institute Level 5 Diploma in Web Application Development.
+In its current form the site has many features missing that I would like to add in the future. I have detailed out these possible features later on in this README file.
 
 ---
 
@@ -51,19 +44,38 @@ In its current form the app has many features missing that I would like to add. 
 
 #### First time Visitor Goals 
 
-* I want to access and see......
-* I want the app to be functional, easy to use and responsive on my device.
-* I want the app to be simple in its layout, easy to understand and navigate.
+* The main purpose of the site is to be clear so that I immediately know what the site is intended for upon entering.
+* View featured products on the website.
+* I want to be able to easily purchase products and securely.
+* The e-commerce store has to work well on all kinds of devices like mobile phones, tablets and desktops.
+* Easy to navigate by using the navigation menu.
+* Easy way to search and sort products that are relevant to me.
+* I want to be able to successfully & securely purchase a product with feedback of where I am in the process and the current status of the purchase.
+* To be met with a visually appealing and easy to read layout.
+* To be able to register as a returning user to save my details for future orders.
+* To be able to get in contact via social media so that I can follow and contact the team.
+* To be able to add a product to the shopping bag and view the total of the order at any time to control my budget.
+* To view product details and images so I can see the product closer up and in more detail.
+* To be able to update and delete products in the basket to be in full control of the purchase.
+* To view order details to be able to confirm everything before final purchase.
+* A clear indication of how to pay as well as an easy and secure method to pay for products with card details.
+* To receive appropriate feedback of order success or failure to ensure purchase has gone through.
 
 #### Returning Visitor Goals
 
-* I want to be......
+* To be able to log back into the site with my created username, email and password.
+* To be able to reset password in the event I forget it
+* To view my profile page to see my order history and also view, edit, add, delete my personal info.
+* To be able to log out of my account.
 
 #### Frequent Visitor Goals
 
-* I want to be able to......
-* I want the project manager...... 
-* I want to be able to........... 
+* When clicking on links (resource and social media links), expect the page to open in a separate browser.
+
+#### Admin User Goals
+
+* View, add, edit, search, delete products.
+* To have the ability to log in to an admin account so that I can add, edit and delete products to the database.
 
 ---
 
