@@ -44,38 +44,37 @@ In its current form the site has many features missing that I would like to add 
 
 #### First time Visitor Goals 
 
-* The main purpose of the site is to be clear so that I immediately know what the site is intended for upon entering.
-* View featured products on the website.
-* I want to be able to easily purchase products and securely.
-* The e-commerce store has to work well on all kinds of devices like mobile phones, tablets and desktops.
-* Easy to navigate by using the navigation menu.
-* Easy way to search and sort products that are relevant to me.
-* I want to be able to successfully & securely purchase a product with feedback of where I am in the process and the current status of the purchase.
-* To be met with a visually appealing and easy to read layout.
-* To be able to register as a returning user to save my details for future orders.
-* To be able to get in contact via social media so that I can follow and contact the team.
-* To be able to add a product to the shopping bag and view the total of the order at any time to control my budget.
-* To view product details and images so I can see the product closer up and in more detail.
-* To be able to update and delete products in the basket to be in full control of the purchase.
-* To view order details to be able to confirm everything before final purchase.
-* A clear indication of how to pay as well as an easy and secure method to pay for products with card details.
-* To receive appropriate feedback of order success or failure to ensure purchase has gone through.
+* I want the site to be clear so that I immediately know what the site is intended for upon entering.
+* I want to be able to easily find and purchase products securely.
+* I want the e-commerce store to work well on all kinds of devices like mobile phones, tablets and desktops.
+* I want to easily navigate the site by using the navigation menu.
+* I want and easy way to search and sort products that are relevant to me.
+* I want to be able to securely purchase a product with feedback of where I am in the process and the current status of that purchase.
+* I want the site to be visually appealing and easy to read.
+* I want to be able to register as a returning user to save my details for future orders.
+* I want to be able to get in contact via social media so that I can follow and contact the team.
+* I want to be able to add a product to the shopping bag and view the total of the order.
+* I want to view product details and images so I can see the product closer up and in more detail.
+* I want to be able to update and delete products in the shopping bag to be in full control of the purchase.
+* I want to view my order details to be able to confirm everything before final purchase.
+* I want a clear indication of how to pay as well as an easy and secure method to pay for products with my card details.
+* I want to receive appropriate feedback of the order success or failure to ensure the purchase has gone through.
 
 #### Returning Visitor Goals
 
 * To be able to log back into the site with my created username, email and password.
-* To be able to reset password in the event I forget it
-* To view my profile page to see my order history and also view, edit, add, delete my personal info.
-* To be able to log out of my account.
+* To view my profile page to see my order history.
+* To be able to log in and view, edit, add, delete my personal info.
 
 #### Frequent Visitor Goals
 
-* When clicking on links (resource and social media links), expect the page to open in a separate browser.
+* When clicking on social media links I want the page to open in a separate browser tab.
+* I want to be able to easily and quickly see any new products or offers.
 
 #### Admin User Goals
 
-* View, add, edit, search, delete products.
-* To have the ability to log in to an admin account so that I can add, edit and delete products to the database.
+* I want to be able to view, search, edit and delete products.
+* I want to be able to log into the product management section so I can add products to the database.
 
 ---
 
@@ -83,32 +82,32 @@ In its current form the site has many features missing that I would like to add 
 
 ### Colour Scheme
 
-I wanted to keep the colour scheme to be simple yet fun as the main focus for the user will be on the current projects and tasks rather than the app itself. 
+I wanted to keep the colour scheme clean, simple and minimal to give a modern fitness gym like feel throughout. 
 
-The backgrounds are kept to black and white to maintain a clean simple interface.
+The backgrounds are kept to black and white to maintain a clean simple interface so that the users focus is mainly on the products on offer.
 
-I used green as accent colours to contrast well against the white and grey backgrounds and card sections. 
+I used green as accent colours to contrast well against the white and grey backgrounds and card sections to give a pop of colour when wanting to get the users attention. 
 
-The red was only used on the delete buttons so that these would stand out and ensure that the user only selected them when they were sure to use them. 
+The red was only used on the delete buttons and warnings so that these would stand out and that the user noticed them. 
 
-I wanted to make sure that the contrast of the colours was very well defined throughout the app, I used the recommended colours built into the Materialize CSS framework, maintaining consistency and ensuring that the colour spectrum would work for users with colour blindness.  
+I wanted to make sure that the contrast of the colours was very well defined throughout the site ensuring that the colour spectrum would work well for users with colour blindness.  
 
 ![Colour Scheme](documentation/ff_colours.png) 
 #
 
 ### Typography
 
-Roboto font was used throughout the app.
+Roboto font was used throughout the site as the base font.
 
-This font works well for the app design as it is simple and easy to read. 
+This font works well for the site design as it is modern and easy to read. 
 
 ![Roboto Font Example](documentation/roboto_font.png)
 
-Bebas Neue font was used for the logo design. 
+Bebas Neue font was used for the logo and for headings to give a bold impactful impression. 
 
 ![Bebas Neue Font Example](documentation/bebas_neue_font.png)
 
-Bebas Neue font was also used for the main logo design. 
+Bebas Neue font as used for the main logo design. 
 
 ![FACTOR FITNESS Logo](documentation/factor_fitness_logo.png)
 #
@@ -145,7 +144,7 @@ Wireframes were created using Balsamiq software for desktop, mobile and tablet.
 
 ### Development Build Process
 
-The build process of the app was completed in small incremental sections. 
+The build process of the site was completed in small incremental sections. 
 This can be observed in the git commits catalogued within the Github repository that can be found here:
 [Repository Commits](https://github.com/develosi/factor_fitness/commits/main)
 
@@ -154,22 +153,30 @@ Testing was carried out during the build, all testing documentation can be found
 
 ### Features
 
-The Website is made up of xxxx pages and they all have content on them taken from the Base Template.
+The Website is made up of multiple applications, each with it's own content template page or multiple template pages. Each application uses content from the base template that includes the header and footer sections.
 
-* Home Page which is the same as Tasks Page
-* Register Page
+Toast messages are also used throughout the site to give the user important information when needed. 
+
+* Home Page
+* Sign Up Page
+* Verify Your Email Page
+* Confirm Your Email Address Page
 * Login Page 
 * Profile Page
-* Add Task Page
-* Edit Task Page
-* Projects Page
-* Add Project Page
-* Edit Project Page
+* Products Page
+* Product Details Page
+* Shopping Bag Page 
+* Checkout Page
+* Checkout Success Page
+* Add a Product Page 
+* Edit a Product Page
+* Product Edit and Delete Sections
+* Log Out Confirmation Page
 #
 
 ### Pages 
 
-All Pages in the app are responsive and have a favicon of the FACTOR FITNESS FF Logo:
+All Pages on the site are responsive and have a favicon of the FACTOR FITNESS FF Logo:
 
 ![Factor Fitness Favicon](documentation/ff_favicon.png) 
 
@@ -189,9 +196,9 @@ Toast messages are also used throughout the site.
 
 #### Home Page
 
-The Home page shows all current outstanding tasks to be completed. The user can edit or delete these tasks.  
+The Home page welcomes new users to the site and what it offers.  
 
-The user can add a new task by clicking on the Add Task button which is animated. 
+Users are immediately invited the shop section by clicking on the shop now button.
 
 ![Home Page](documentation/screenshot_home.png)
 
@@ -203,49 +210,59 @@ The user can register for an account.
 
 #### Verify Email Message Page
 
-The user can register for an account. 
+The user is informed to check their email to verify their account. 
 
 ![Verify Email Message Page](documentation/screenshot_verify_email.png)
 
 #### Confirm Email Page
 
-The user can register for an account. 
+Once a user as gone to the verify email web link they are greeted with a message to click on the confirm email button. 
 
 ![Confirm Email Link Page](documentation/screenshot_confirm_email_link.png)
 
-#### Sign In Page 
+#### Log In Page 
 
-A user that already has an account can log in. 
+The user can sign into their account. 
 
 ![Sign In Page](documentation/screenshot_sign_in.png)
 
 #### Profile Page
 
-The user can access the profile page, no content has been produced for the profile section yet. 
+The user can access the profile page. 
+
+The user can see any previous orders and add personal shipping details ready to be used on future orders. 
 
 ![Profile Page](documentation/screenshot_profile_page.png)
 
 #### Products Page
 
-The user can add a new task by completing the form and clicking on the plus symbol. 
+The user can view current available products in the store and filter them using the dropdown menus at the top. 
+
+Users can also serach the entire site for a particular product using the search bar at the top nav section.
 
 ![Products Page](documentation/screenshot_products.png)
 
 #### Product Details Page
 
-The user can edit the task by completing the form and clicking on the plus symbol. 
+The user can see further details of a product on the details page. This includes pricing, review scores and category. 
+
+Quantities of the product can be added or adjusted off and then the user can add to the shopping bag.  
 
 ![Product Details Page](documentation/screenshot_product_details.png)
 
 #### Shopping Bag Page
 
-The user can view all current projects. 
+The user can view all current selected products and adjust quantities if needed by changing the amount and clicking update. 
+
+Users can also delete the product from the shopping bag by clicking on the delete button. 
 
 ![Shopping Bag Page](documentation/screenshot_shopping_bag.png)
 
 #### Checkout Page
 
-If the admin is logged in they can add a new project.
+Users can see a summery of the products they have ordered and see the required input fields they need to complete for the shipping details. 
+
+At the bottom of the shipping details section the user is invited to enter card details for payment. This is linked to the Stripe testing API.
 
 ![Checkout Page](documentation/screenshot_checkout.png)
 
@@ -253,19 +270,25 @@ If the admin is logged in they can add a new project.
 
 #### Checkout Success Page
 
-If the admin is logged in they can edit a projects name. 
+If the payment has successfuly gone through then the user is greeted with a thank you message and summery of their order. 
+
+A conifirmation email will also be sent to the users email address. 
 
 ![Checkout Success Page](documentation/screenshot_checkout_success.png)
 
 #### Add A Product Page
 
-If the admin is logged in they can edit a projects name. 
+If the superuser 'admin' is logged in they can add products to the database using the product management section. 
+
+The product management section is accessed through the 'My Account' dropdown menu.
 
 ![Add A Product Page](documentation/screenshot_add_a_product.png)
 
 #### Edit A Product Page
 
-If the admin is logged in they can edit a projects name. 
+If the superuser 'admin' is logged in they can edit a product by clicking on the 'edit' button on any product page. 
+
+The Edit A Product page allows a superuser to update all of the details relating to the product including the image used. 
 
 ![Edit A Product Page](documentation/screenshot_edit_product.png)
 
@@ -273,13 +296,17 @@ If the admin is logged in they can edit a projects name.
 
 #### Product Edit & Delete Section
 
-If the admin is logged in they can edit a projects name. 
+If the superuser 'admin' is logged in they can edit or delete a product by clicking on the 'edit' or 'delete' buttons on any product page. 
+
+Please note that no defensive programming has been set up yet for the deletion of products so superusers are given no warning before final deletion. 
 
 ![Admin Product and Delete buttons](documentation/screenshot_products_edit_delete.png)
 
-#### Sign Out Confirmation Page 
+#### Log Out Confirmation Page 
 
-A user that already has an account can log in. 
+A user that is logged in can confirm they have logged out. 
+
+For the purpose of this website I used the terminology of 'signed in' and 'signed out' as I felt it fitted the theme of the design user experience better. 
 
 ![Sign Out Confirmation Page](documentation/screenshot_sign_out.png)
 
