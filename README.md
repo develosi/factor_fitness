@@ -314,36 +314,41 @@ For the purpose of this website I used the terminology of 'signed in' and 'signe
 
 In future development and implementations I would like to add the following:
 
-* Give users the option to assign tasks to other users.
-* Show which tasks were created by which user.
-* Ability to search for tasks and projects. 
-* Offer tasks broken down into sections as an option so a user can show progress within a task that is not yet fully complete. 
-* Add a more secure log in section that includes email of the user. 
-* Ability to sort tasks by other options such as timeframe, urgency or alphabetically. 
-* Main home page should be a standard landing page without yet showing any tasks before a user is logged in.
-* Ability to create organisations so that you can only see projects or tasks associated within your organisation or team. 
+* Fix the nav bar for mobile view so that the logo fits within the top nav section.
+* Have a contact section where the user can contact the sales team with any questions or even have a live chat option.
+* Add more products to the site as at the moment there is very few. 
+* Update the product details page for mobile view as the current layout doesn't fit well on a small screen. 
+* Add social media login options for users signing up for the first time so there is no need to use an email address. 
+* Add a video background for the main home index page to add a more engaging design for new users. 
+* Add more design to the emails that get sent out to users so the design fits the theme of the website.
+* Add more features to the profile page so that a user can track delivery of shipments etc.
+* Add the ability for users to change passwords and profile names, not just the shipping address.
+* Give users the ability to review and give feedback scores to products within the profile section.
+* Update shopping bag layout for mobile view as it currently doesn't fit well on small screens.  
+* Show that the payments are processed by Stripe with branding at checkout to give confidence to the user paying it will be secure.
+* Add more features to the product management section as at present only new products can be added on this page. 
+* Add more defensive programming throughout the site such as when superusers can delete products on the products page.
 #
 
 ### Accessibility
 
-I have been mindful to ensure that the app is as accessible as possible. The areas I have focused on:
+I have been mindful to ensure that the site is as accessible as possible. The areas I have focused on:
 
 * Using semantic HTML with alt and aria attributes as much as possible.
-* Using wording rather than an icon when an important action is required.
-* Choosing a simple easy to read font for the app with a bold style.
-* Ensuring that there is a strong colour contrast throughout the app so it easier to read.
+* Using wording rather than an icon when an important action is required on a button.
+* Choosing a simple easy to read font for the site with a bold style.
+* Ensuring that there is a strong colour contrast throughout the site so it easy to read.
 * Extensive A11y and colour blindness accessibility testing carried out, results of all testing can be found at: [TESTING.md](TESTING.md).
 #
 
 ### Defensive Programming
 
-I have used defensive programming throughout the app to ensure that users who are not logged in cannot create or delete any tasks. 
-This is achieved by checking whether the user is in a current session, then also checking to see if the session user is also the admin. 
+I would like to have spent more time developing the defensive programming features throughout the site. 
+At present when a superuser wants to delete a product no warning alert appears for them to double confirm they are sure they want to delete it. 
 
-If a user is not the admin, then they are unable to create or delete projects, this is restricted to the admin user only. 
-Flash messages will be displayed to let users know if they are attempting to complete an action that they are not authorised to do.
+At present whenever there is an important action to be completed by a user I have coloured it in red and made as bold as possible. 
 
-I have also created modals that appear to have users double confirm before a user can delete any projects/tasks.
+In the future I hope to develop out the site further and add more defensive programming features throughout. 
 
 ---
 
