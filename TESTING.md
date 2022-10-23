@@ -31,42 +31,47 @@ I have gone through each page using google chrome developer tools to ensure that
 
 ### W3C Validator
 
-[W3C](https://validator.w3.org/) was used to validate the HTML on all app pages. It was also used to validate the CSS file.
+[W3C](https://validator.w3.org/) was used to validate the HTML on all the site pages. It was also used to validate the CSS file.
 
-* tasks.html 
-* register.html 
-* login.html 
-* profile.html 
-* projects.html  
-* add_project.html  
-* edit_project.html 
-* add_task.html  
-* edit_task.html   
+* index.html 
+* base.html 
+* main-nav.html 
+* mobile-top-header.html 
+* profile.html  
+* add_product.html  
+* edit_product.html 
+* products.html  
+* product_detail.html
+* bag.html 
+* checkout.html
+* checkout_success.html
 
   * HTML:
-  Get one warning for........
+  To validate the HTML code of the project I did this by pasting code in by direct input method. The W3C Validator for HTML gives errors and warnings for templating syntax used throughout the sites so these errors were ignored. All other issues were resolved. 
 
   * CSS: 
-  Warnings ................ 
+  No issues found on static CSS files. 
 
 ---
 
 ### JavaScript Validator
 
 [JSHint](https://jshint.com/) was used to validate the JavaScript.
-I used the jshint extension I had installed into my Visual Studio Code IDE. 
+I used the jshint extension I had installed into my Visual Studio Code IDE to check throughout the build. 
 
-No warnings given ......
+Two warnings given for semicolon use and two warnings for template literal syntax use. 
 
 ---
 
 ### Python Validator 
 
-[PEP8 Online](http://pep8online.com/) was used to validate all Python files.
+[PEP8 Online](http://pep8online.com/) was used to validate all Python files
+
+[Flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8) extension for VSCode IDE was used throughout the build.
 
 Due to limited time for completing the project, unfortunately I was unable to finish fixing all PEP8 errors that were shown. 
 
-I need to spend more time on this and confirm solutions around the errors showing for backslashes within brackets. Also need to confirm the best way to have code break over multiple lines. 
+I need to spend more time on this and fix where lines are too long for pep8 standards. 
 
 ---
 
@@ -74,7 +79,9 @@ I need to spend more time on this and confirm solutions around the errors showin
 
 Google Lighthouse within the Chrome Developer Tools was used to test for performance, accessibility, best practices and SEO.
 
-Most performance issues related to the MaterializeCSS library, I would like to spend more time on this to figure out how it can be improved upon. 
+Most performance issues related to the bootstrap library and also image formats. 
+
+In the future I would like to spend more time on this to see how the performance could be improved. Immediate areas to focus on are using file formats such as WebP, improving cache settings and fixing render blocking resources. 
 
 ### Desktop Results
 
