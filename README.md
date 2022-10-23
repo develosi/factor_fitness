@@ -46,12 +46,12 @@ In its current form the site has many features missing that I would like to add 
 * I want to be able to easily find and purchase products securely.
 * I want the e-commerce store to work well on all kinds of devices like mobile phones, tablets and desktops.
 * I want to easily navigate the site by using the navigation menu.
-* I want and easy way to search and sort products that are relevant to me.
+* I want an easy way to search and sort products that are relevant to me.
 * I want to be able to securely purchase a product with feedback of where I am in the process and the current status of that purchase.
 * I want the site to be visually appealing and easy to read.
 * I want to be able to register as a returning user to save my details for future orders.
 * I want to be able to get in contact via social media so that I can follow and contact the team.
-* I want to be able to add a product to the shopping bag and view the total of the order.
+* I want to be able to add a product to the shopping bag and view the total value of the order.
 * I want to view product details and images so I can see the product closer up and in more detail.
 * I want to be able to update and delete products in the shopping bag to be in full control of the purchase.
 * I want to view my order details to be able to confirm everything before final purchase.
@@ -80,15 +80,17 @@ In its current form the site has many features missing that I would like to add 
 
 ### Colour Scheme
 
-I wanted to keep the colour scheme clean, simple and minimal to give a modern fitness gym like feel throughout. 
+I wanted to keep the colour scheme clean, simple and minimal to give a modern fitness gym feeling throughout. 
 
 The backgrounds are kept to black and white to maintain a clean simple interface so that the users focus is mainly on the products on offer.
 
-I used green as accent colours to contrast well against the white and grey backgrounds and card sections to give a pop of colour when wanting to get the users attention. 
+I used green as accent colours to contrast well against the white and black backgrounds and card sections to give a pop of colour when wanting to get the users attention. 
 
 The red was only used on the delete buttons and warnings so that these would stand out and that the user noticed them. 
 
-I wanted to make sure that the contrast of the colours was very well defined throughout the site ensuring that the colour spectrum would work well for users with colour blindness.  
+I wanted to make sure that the contrast of the colours was very well defined throughout the site, ensuring that the colour spectrum would work well for users with colour blindness.  
+
+<br>
 
 ![Colour Scheme](documentation/ff_colours.png) 
 #
@@ -142,7 +144,7 @@ Wireframes were created using Balsamiq software for desktop, mobile and tablet.
 
 ### Development Build Process
 
-The build process of the site was completed in small incremental sections. 
+The build process of the site was completed in small incremental steps. 
 This can be observed in the git commits catalogued within the Github repository that can be found here:
 [Repository Commits](https://github.com/develosi/factor_fitness/commits/main)
 
@@ -151,7 +153,7 @@ Testing was carried out during the build, all testing documentation can be found
 
 ### Features
 
-The Website is made up of multiple applications, each with it's own content template page or multiple template pages. Each application uses content from the base template that includes the header and footer sections.
+The Website is made up of multiple applications, each with its own content template page or multiple template pages. Each application uses content from the base template that includes the header and footer sections.
 
 Toast messages are also used throughout the site to give the user important information when needed. 
 
@@ -196,7 +198,7 @@ Toast messages are also used throughout the site.
 
 The Home page welcomes new users to the site and what it offers.  
 
-Users are immediately invited the shop section by clicking on the shop now button.
+Users are immediately invited to the shop section by clicking on the shop now button.
 
 ![Home Page](documentation/screenshot_home.png)
 
@@ -236,7 +238,7 @@ The user can see any previous orders and add personal shipping details ready to 
 
 The user can view current available products in the store and filter them using the dropdown menus at the top. 
 
-Users can also serach the entire site for a particular product using the search bar at the top nav section.
+Users can also search the entire site for a particular product using the search bar at the top nav section.
 
 ![Products Page](documentation/screenshot_products.png)
 
@@ -244,7 +246,7 @@ Users can also serach the entire site for a particular product using the search 
 
 The user can see further details of a product on the details page. This includes pricing, review scores and category. 
 
-Quantities of the product can be added or adjusted off and then the user can add to the shopping bag.  
+Quantities of the product can be added or adjusted off and then the user can add these to the shopping bag.  
 
 ![Product Details Page](documentation/screenshot_product_details.png)
 
@@ -268,9 +270,9 @@ At the bottom of the shipping details section the user is invited to enter card 
 
 #### Checkout Success Page
 
-If the payment has successfuly gone through then the user is greeted with a thank you message and summery of their order. 
+If the payment has successfully gone through then the user is greeted with a thank you message and summery of their order. 
 
-A conifirmation email will also be sent to the users email address. 
+A confirmation email will also be sent to the users email address. 
 
 ![Checkout Success Page](documentation/screenshot_checkout_success.png)
 
@@ -304,7 +306,7 @@ Please note that no defensive programming has been set up yet for the deletion o
 
 A user that is logged in can confirm they have logged out. 
 
-For the purpose of this website I used the terminology of 'signed in' and 'signed out' as I felt it fitted the theme of the design user experience better. 
+For the purpose of this website I used the terminology of 'signed in' and 'signed out' as I felt it fitted the user experience better. 
 
 ![Sign Out Confirmation Page](documentation/screenshot_sign_out.png)
 
@@ -316,25 +318,25 @@ In future development and implementations I would like to add the following:
 * Have a contact section where the user can contact the sales team with any questions or even have a live chat option.
 * Add more products to the site as at the moment there is very few. 
 * Update the product details page for mobile view as the current layout doesn't fit well on a small screen. 
-* Add social media login options for users signing up for the first time so there is no need to use an email address. 
+* Add social media login options for users signing up for the first time so it is easier and faster. 
 * Add a video background for the main home index page to add a more engaging design for new users. 
 * Add more design to the emails that get sent out to users so the design fits the theme of the website.
-* Add more features to the profile page so that a user can track delivery of shipments etc.
-* Add the ability for users to change passwords and profile names, not just the shipping address.
+* Add more features to the profile page so that a user can track delivery of shipments.
+* Add the ability for users to change passwords and profile names, not just the shipping address in the profile section.
 * Give users the ability to review and give feedback scores to products within the profile section.
 * Update shopping bag layout for mobile view as it currently doesn't fit well on small screens.  
-* Show that the payments are processed by Stripe with branding at checkout to give confidence to the user paying it will be secure.
+* Show that the payments are processed by Stripe with branding at checkout to give confidence to the user paying.
 * Add more features to the product management section as at present only new products can be added on this page. 
 * Add more defensive programming throughout the site such as when superusers can delete products on the products page.
 #
 
 ### Accessibility
 
-I have been mindful to ensure that the site is as accessible as possible. The areas I have focused on:
+I have been mindful to ensure that the site is as accessible as possible. The areas I have focused on are:
 
 * Using semantic HTML with alt and aria attributes as much as possible.
 * Using wording rather than an icon when an important action is required on a button.
-* Choosing a simple easy to read font for the site with a bold style.
+* Choosing a simple easy to read font for the site with a bold style where needed.
 * Ensuring that there is a strong colour contrast throughout the site so it easy to read.
 * Extensive A11y and colour blindness accessibility testing carried out, results of all testing can be found at: [TESTING.md](TESTING.md).
 #
@@ -364,7 +366,7 @@ HTML, CSS, Javascript, Python
 
 * [Bootstrap](https://getbootstrap.com/) - Responsive library resource using css and javascript components.
 
-* [Google Fonts](https://fonts.google.com/) - library of fonts used hosted on Google cdn
+* [Google Fonts](https://fonts.google.com/) - library of fonts used hosted on Google CDN
 
 * [SQLite](https://www.sqlite.org/index.html) - Django built-in database used as the database in development mode.
 
@@ -411,21 +413,21 @@ This project uses GitHub for version control and Heroku to deploy the site into 
 To deploy please follow these steps:
 
 ### To Clone The Project
-From the application's repository, click the "code" button and download the zip of the repository. Alternatively, you can clone the repository using the following line in your terminal: 
+From the application's repository, click the "code" button and download the zip file of the repository. Alternatively, you can clone the repository using the following line in your terminal: 
 ```
 git clone https://github.com/develosi/factor_fitness.git
 ```
 
 #### To Install Required Software
-While you are still in the terminal, type pip3 install -r requirements.txt, this will install all the required softwares to run the project:
+While you are still in the terminal, type pip3 install -r requirements.txt, this will install all the required software to run the project:
 ```
 pip3 install -r requirements.txt
 ```
 
-#### Setup Enviroment For Variables
+#### Setup Environment For Variables
 You now need to set up the database with environment variables. Create a file titled env.py and make sure it is placed in the main file structure. You can also add these in your workspace variable section. 
 
-Option 1: Env.py file:
+Option 1: env.py file:
 ```
  os.environ.setdefault('SECRET_KEY', '<your_variable_here>')
  os.environ.setdefault('DEVELOPMENT', 'True')
@@ -466,17 +468,17 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ### Heroku Deployment
 - Go to the [Heroku](https://www.heroku.com/) website. Register for an account and click on "Create a new app".
-- Setup a Heroku app within the Heroku dashboard - Type in the app name and select region the click on create app.
+- Setup a Heroku app within the Heroku dashboard - Type in the app name and select region then click on create app.
 - In Heroku, in your app, click on "GitHub" to connect to your repository. Type in the repository name as on GitHub. Click on "Connect".
 - Search for your repo (or sign in and connect GitHub account) and select this.
 - Then click "Hide Config Vars" in Heroku.
 - Go to the resources tab and search for Heroku Postgres. Choose the “hobby dev - free” option and submit the order form.
-- On the `settings.py file`, you will need to comment out the 'SQLite and Postgres databases' section and uncomment the 'PostgreSQL Database' section. (this is temporary, nothing should be pushed/committed just yet).
+- On the `settings.py file`, you will need to comment out the 'SQLite and Postgres databases' section and uncomment the 'PostgreSQL Database' section. (this is temporary, nothing should be pushed/committed yet).
 - Add the database URL from Heroku & migrate your models to the PostgreSQL database with: 
     ```
     python3 manage.py migrate
     ```
-- Create a superuser with the following command, and fill in the required information.:
+- Create a superuser with the following command, and fill in the required information:
     ```
     python3 manage.py createsuperuser
     ```
@@ -503,7 +505,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
             }
         }
     ```
-- Copy the variables from the variable enviroment one by one into the heroku config vars. They would be:
+- Copy the variables from the variable environment one by one into the heroku config vars. They should be:
    ```
     KEY: 'SECRET_KEY', VALUE: “your_variable_here”
     KEY: 'DEVELOPMENT', VALUE: "True"
@@ -515,7 +517,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
     KEY: AWS_SECRET_ACCESS_KEY, VALUE: "AWS secret access key"
     KEY: USE_AWS, VALUE: "True"
     ```
-- Login to Heroku in the CLI and temporarity disable collectstatic, with the following command:
+- Login to Heroku in the CLI and temporarily disable collectstatic, with the following command:
     ```
     heroku config:set DISABLE_COLLECTSTATIC=1 --app factorfitness
     ```
@@ -544,7 +546,7 @@ Create an account with [AWS](www.aws.amazon.com), follow the steps and sign in.
   }
 ]
 ```
-- Go to the Bucket policy tab and click 'policy generator', to create a policy. Choose 'S3 bucket policy', allow all principals by typing a star. From the action dropdown menu select 'GetObject'. Copy the ARN and paste it into the ARN box. Then click 'add statment' and then click 'generate policy'. Copy the policy into the bucket policy editor. Add a slash star onto the end of the resource key. Click 'save'. 
+- Go to the Bucket policy tab and click 'policy generator', to create a policy. Choose 'S3 bucket policy', allow all principals by typing a star. From the action dropdown menu select 'GetObject'. Copy the ARN and paste it into the ARN box. Then click 'add statement' and then click 'generate policy'. Copy the policy into the bucket policy editor. Add a slash star onto the end of the resource key. Click 'save'. 
 - Go to access control list tab, under public access, click on 'Everyone', select 'List Objects'. Then click 'save'. 
 - Go to IAM (from services menu), click on 'groups' and create a new user group. Give the group a group name (example: 'manage-factorfitness'). Then click 'create group'. 
 - Click 'policies' in the dashboard, and then click 'create policy'. Go to the JSON tab. Click 'import managed policy'. Import 'AmazonS3FullAccess'. Get the bucket ARN from the bucket policy page in S3, and paste that in after 'Resource', as a list (first the ARN, then also the ARN with a slash and star). Click 'next tags' and then 'next review'. Give it a name and description. Click 'create policy'. 
@@ -607,7 +609,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing completed.
 
 ### Code Used
 
-I used the code from the Code Institute modules on the Boutique Ado project as a starting point for the main structure of the website. 
+I used the code from the Code Institute modules on the Boutique Ado project as a starting point and reference for the main structure of the website. 
 
 ### Content
 
