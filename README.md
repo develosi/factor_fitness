@@ -31,8 +31,6 @@ In its current form the site has many features missing that I would like to add 
 * [Accessibility](#Accessibility) 
 * [Technologies Used](#Technologies-Used) 
 * [Deployment](#Deployment)
-* [How to Fork](#How-to-Fork) 
-* [How to Clone](#How-to-Clone)
 * [Testing](#Testing) 
 * [Credits](#Credits)
 
@@ -364,13 +362,19 @@ HTML, CSS, Javascript, Python
 
 * [Django](https://www.djangoproject.com/) - Open-source web framework, used as the main framework for the site.
 
-* [MaterializeCSS](https://materializecss.com/) - CSS Framework.
+* [Bootstrap](https://getbootstrap.com/) - Responsive library resource using css and javascript components.
 
-* [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) - Database library, used to interact with PostgreSQL.
+* [Google Fonts](https://fonts.google.com/) - library of fonts used hosted on Google cdn
+
+* [SQLite](https://www.sqlite.org/index.html) - Django built-in database used as the database in development mode.
+
+* [Heroku](https://www.heroku.com/) - Cloud platform used for deploying the website.
+
+* [AWS](https://aws.amazon.com/) - Amazon Web Services used for hosting static files and images for the site.
+
+* [Stripe](https://stripe.com/en-gb) - Used for testing credit and debit card payments.
 
 * [Pip](https://pypi.org/project/pip/) - Tool for installing python packages.
-
-* [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - Web template engine.
 
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
@@ -378,7 +382,7 @@ HTML, CSS, Javascript, Python
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Integrated development environment.
 
-* [Font Awesome](https://fontawesome.com/) - For the icons on the app.
+* [Font Awesome](https://fontawesome.com/) - For the icons on the site.
 
 * [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Testing features, checking responsiveness and styling.
 
@@ -396,110 +400,202 @@ HTML, CSS, Javascript, Python
 
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=en) - A Google chrome extension to help check for accessibility issues.
 
+* [Pexels](https://www.pexels.com/) - Stock images used throughout the site. Commercial free.
+
 ---
 
-## Deployment & Local Development
+## Deployment
 
-### Deployment
+This project uses GitHub for version control and Heroku to deploy the site into production. Heroku Postgres is used for the database. [AWS](https://aws.amazon.com/), which is a cloud-based platform, is used to store static files and images.
 
-The site is deployed using Heroku. To deploy to Heroku:
+To deploy please follow these steps:
 
-1. To successfully deploy on Heroku we first need to create some files: a requirements.txt file and a Procfile.
+### To Clone The Project
+From the application's repository, click the "code" button and download the zip of the repository. Alternatively, you can clone the repository using the following line in your terminal: 
+```
+git clone https://github.com/develosi/factor_fitness.git
+```
 
-2. The requirements.txt file contains all the applications and dependencies that are required to run the app. To create the requirements.txt file run the following command in the terminal:
+#### To Install Required Software
+While you are still in the terminal, type pip3 install -r requirements.txt, this will install all the required softwares to run the project:
+```
+pip3 install -r requirements.txt
+```
 
-    ```bash
+#### Setup Enviroment For Variables
+You now need to set up the database with environment variables. Create a file titled env.py and make sure it is placed in the main file structure. You can also add these in your workspace variable section. 
+
+Option 1: Env.py file:
+```
+ os.environ.setdefault('SECRET_KEY', '<your_variable_here>')
+ os.environ.setdefault('DEVELOPMENT', 'True')
+ os.environ.setdefault('STRIPE_PUBLIC_KEY', '<your_variable_here>')
+ os.environ.setdefault('STRIPE_SECRET_KEY', '<your_variable_here>')
+ os.environ.setdefault('STRIPE_WH_SECRET_CH', '<your_variable_here>')
+ os.environ.setdefault('STRIPE_WH_SECRET_SUB', '<your_variable_here>')
+ ```
+- In ` settings.py`  add:
+```
+if os.path.exists("env.py"):
+    import env
+```
+-  Add your env.py file to `.gitignore`, before pushing your changes.
+
+Option 2: Workspace Variables:
+```
+KEY = 'SECRET_KEY', VALUE = '<your_variable_here>'
+KEY = 'DEVELOPMENT', VALUE = 'True'
+KEY = 'STRIPE_PUBLIC_KEY', VALUE = '<your_variable_here>'
+KEY = 'STRIPE_SECRET_KEY', VALUE = '<your_variable_here>'
+KEY = 'STRIPE_WH_SECRET_CH', VALUE = '<your_variable_here>'
+KEY = 'STRIPE_WH_SECRET_SUB', VALUE = '<your_variable_here>'
+KEY = 'AWS_ACCESS_KEY_ID', VALUE: '<your_variable_here>'
+KEY = 'AWS_SECRET_ACCESS_KEY', VALUE: '<your_variable_here>'
+KEY = 'USE_AWS', VALUE: 'True'
+ ```
+
+- In ` settings.py`  add:
+ ```
+ SECRET_KEY = os.environ.get('SECRET_KEY', '')
+ ```
+
+#### DEBUG Settings
+```
+DEBUG = 'DEVELOPMENT' in os.environ
+```
+
+### Heroku Deployment
+- Go to the [Heroku](https://www.heroku.com/) website. Register for an account and click on "Create a new app".
+- Setup a Heroku app within the Heroku dashboard - Type in the app name and select region the click on create app.
+- In Heroku, in your app, click on "GitHub" to connect to your repository. Type in the repository name as on GitHub. Click on "Connect".
+- Search for your repo (or sign in and connect GitHub account) and select this.
+- Then click "Hide Config Vars" in Heroku.
+- Go to the resources tab and search for Heroku Postgres. Choose the “hobby dev - free” option and submit the order form.
+- On the `settings.py file`, you will need to comment out the 'SQLite and Postgres databases' section and uncomment the 'PostgreSQL Database' section. (this is temporary, nothing should be pushed/committed just yet).
+- Add the database URL from Heroku & migrate your models to the PostgreSQL database with: 
+    ```
+    python3 manage.py migrate
+    ```
+- Create a superuser with the following command, and fill in the required information.:
+    ```
+    python3 manage.py createsuperuser
+    ```
+- In the `settings.py` file, you can now delete the 'PostgreSQL Database' section and uncomment the 'SQLite and PostgreSQL Databases' section. This means that either database can now be used interchangeably.
+- Install gunicorn and freeze that to the requirements file with the following commands:
+    ```
+    pip3 install gunicorn
     pip3 freeze --local > requirements.txt
     ```
-
-3. The Procfile tells Heroku which files run the app and how to run it. To create the Procfile run the following command in the terminal:
-
-    ```bash
-    echo web: python app.py > Procfile
+- Create a Procfile and inside, add the following:
     ```
-
-    NOTE: The Procfile uses a capital P and doesn't have a file extension on the end.
-
-4. If the Procfile has been created correctly it will have the Heroku logo next to it. It is also important to check the Procfile contents, as sometimes on creation a blank line will be added at the end of the file. This can sometimes cause problems when deploying to Heroku, so if the file contains a blank line at the end, delete this and save the file. Make sure to save both these files and then add, commit and push them to GitHub.
-
-5. Login (or sign up) to [heroku.com](https://www.heroku.com).
-
-6. Click the new button and then click create new app.
-
-7. You will then be asked to give your app a name (these must be unique so you cannot reuse the same as someone else) and select a region, the region should be the one closest to you. Once these are completed click create app.
-
-8. You will now need to connect the Heroku app to the GitHub repository for the site. Select GitHub in the deployment section, find the correct repository for the project and then click connect.
-
-9. Once the repository is connected, you will need to provide Heroku some config variables it needs to build the app. Click on the settings tab and then click reveal config vars button. You will now need to add the environment key/value variables that were used in the env.py file:
-
-    | KEY | VALUE |
-    | :-- | :-- |
-    | IP | 0.0.0.0 |
-    | PORT | 5000 |
-    | SECRET_KEY| YOUR_SECRET_KEY* |
-    | DATABASE_URL | POSTGRES://* |
-    | DEBUG | TRUE** |
-
-    *Denotes a value that is specific to your app.
-
-    **This is set to true while deploying to enable us to see any bugs. Please change to FALSE after deployment.
-
-10. You're now ready to click the 'enable automatic deploys' and create button. Heroku will start building the app.
-
-11. As this project utilises a relational database, there are a few more steps to set this up.
-
-12. On the heroku dashboard go to resources tab and then select add-ons. You will need to search for and select heroku postgres. For this project the hobby dev free tier is fine.
-
-13. Go back into settings and reveal config vars. You should now see a new key called DATABASE_URL and the value should have been pre-populated.
-
-14. We will now need to go the more button on the dashboard and select run console. This is where we will set up the tables in the database we have just created.
-
-15. Type python3 and then once the python interpretor opens, we can run the following:
-
-    ```bash
-    from factor_fitness import db
-    db.create_all()
-    exit()
+    web: gunicorn factorfitness.wsgi:application
+- In `settings.py`, use an if statement so that when the app runs on Heroku, you will connect to Postgres, and otherwise, it will connect to sqlite3, like so:
     ```
-
-16. Now that the relational database has been set up and the tables created, we can now click open app and the Debugist application should now open in a new tab.
-#
-
-### Local Development
-
-#### How to Fork
-
-To fork the repository:
-
-1. Log in (or sign up) to Github.
-
-2. Go to the repository for this project, [Factor Fitness](https://github.com/develosi/factor_fitness).
-
-3. Click the Fork button in the top right corner.
-
-#### How to Clone
-
-To clone the repository:
-
-1. Log in (or sign up) to GitHub.
-
-2. Go to the repository for this project, [Factor Fitness](https://github.com/develosi/factor_fitness).
-
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-
-5. Type the following command in the terminal (after the git clone you will need to paste the link you copied in step 3 above):
-
-    ```bash
-    git clone { & THE LINK FROM STEP 3 }
+    if 'DATABASE_URL' in os.environ:
+        DATABASES = {
+            'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+        }
+    else:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': BASE_DIR / 'db.sqlite3',
+            }
+        }
     ```
-
-6. Install the packages from the requirements.txt file by running the following command in the Terminal:
-
-    ```bash
-    pip3 install -r requirements.txt
+- Copy the variables from the variable enviroment one by one into the heroku config vars. They would be:
+   ```
+    KEY: 'SECRET_KEY', VALUE: “your_variable_here”
+    KEY: 'DEVELOPMENT', VALUE: "True"
+    KEY: 'STRIPE_PUBLIC_KEY', VALUE: "your_variable_here"
+    KEY: 'STRIPE_SECRET_KEY', VALUE: "your_variable_here"
+    KEY: 'STRIPE_WH_SECRET_CH', VALUE: "your_variable_here"
+    KEY: 'STRIPE_WH_SECRET_SUB', VALUE: "your_variable_here"
+    KEY: AWS_ACCESS_KEY_ID, VALUE: "AWS access key ID"
+    KEY: AWS_SECRET_ACCESS_KEY, VALUE: "AWS secret access key"
+    KEY: USE_AWS, VALUE: "True"
     ```
+- Login to Heroku in the CLI and temporarity disable collectstatic, with the following command:
+    ```
+    heroku config:set DISABLE_COLLECTSTATIC=1 --app factorfitness
+    ```
+- Add your Heroku app and local host to allowed hosts in `settings.py.`
+- Push to Github, and then to Heroku master. 
+- In Heroku, go to the 'Deploy' tab. In the section 'Deployment Method' click on 'Github - Connect to Github'. Make sure your Github profile is displayed. Add the repository name and click on 'Search'. After Heroku has found the repository, click on 'Connect'. This will connect your Heroku app to your GitHub repository. Click 'Enable automatic deploys'. Your code will automatically be deployed to Heroku as well. 
+
+### AWS (Amazon Web Services)
+Create an account with [AWS](www.aws.amazon.com), follow the steps and sign in. 
+- Go to the AWS management console and go to the S3 service. There, create a new bucket. Uncheck 'block all public access' and acknowledge that the bucket will be public.
+- Go to the buckets properties, and turn on static website hosting. Select 'Use this bucket to host a website', and fill in index.html and error.html, then click 'save'.
+- Go to the permissions tab, and go to CORS configuration. Paste in a CORS configuration:
+```
+[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
+```
+- Go to the Bucket policy tab and click 'policy generator', to create a policy. Choose 'S3 bucket policy', allow all principals by typing a star. From the action dropdown menu select 'GetObject'. Copy the ARN and paste it into the ARN box. Then click 'add statment' and then click 'generate policy'. Copy the policy into the bucket policy editor. Add a slash star onto the end of the resource key. Click 'save'. 
+- Go to access control list tab, under public access, click on 'Everyone', select 'List Objects'. Then click 'save'. 
+- Go to IAM (from services menu), click on 'groups' and create a new user group. Give the group a group name (example: 'manage-factorfitness'). Then click 'create group'. 
+- Click 'policies' in the dashboard, and then click 'create policy'. Go to the JSON tab. Click 'import managed policy'. Import 'AmazonS3FullAccess'. Get the bucket ARN from the bucket policy page in S3, and paste that in after 'Resource', as a list (first the ARN, then also the ARN with a slash and star). Click 'next tags' and then 'next review'. Give it a name and description. Click 'create policy'. 
+- Go to 'groups'. Click the manage-factorfitness group. Go to 'permissions'. Click 'attach policy'. Select the policy you just created. Click 'add permissions' and then 'Attach policy'.
+- Go to 'users'. Click 'add user'. As username write 'factorfitness-staticfiles-user. Give programmatic access. Click 'next'. Add the user to the group. Click through to the end. Download the .csv file. 
+
+### Connecting DJANGO to AWS S3 and Stripe
+- Go back to your IDE. Install boto3 and Django storages, and freeze them to the requirement file with the following commands:
+    ```
+    pip3 install boto3
+    pip3 install django-storages
+    pip3 freeze > requirements.txt
+    ```
+- Add 'storages' to the installed apps in the settings.py file.
+- Add the following if statement:
+    ```
+    if 'USE_AWS' in os.environ:
+        AWS_STORAGE_BUCKET_NAME = 'factorfitness'
+        AWS_S3_REGION_NAME = 'eu-west-2'
+        AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+        AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+        AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+    ```
+- On Heroku, add the AWS keys to the Config Variables (they can be found in the csv file you downloaded earlier). Also, add USE_AWS and set it to True. 
+- Remove the DISABLE_COLLECTSTATIC from the variables. 
+- In your IDE, create a file called custom_storages.py and add:
+    ```
+    from django.conf import settings
+    from storages.backends.s3boto3 import S#Boto3Storage
+
+    class StaticStorage(S3Boto3Storage):
+        location = settings.STATICFILES_LOCATION
+
+
+    class MediaStorage(S3Boto3Storage):
+        location = settings.MEDIAFILES_LOCATION 
+    ```
+- To the before mentioned if statement from above, in settings.py, also add:
+    ```
+        STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+        STATICFILES_LOCATION = 'static'
+        DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+        MEDIAFILES_LOCATION = 'media'
+
+        STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+        MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+    ```
+- Add, commit and push these changes. If you now go to the bucket, you will see all the static files. 
+- Go to your bucket and add a new folder called media. Inside it, click 'upload' and then 'add files'. Then select all the images you'd like to use. Click 'next'. Under 'manage public permissions', select 'grant public read access'.
+- On Stripe, add a new webhook endpoint, with the URL of your Heroku app, followed by 
+```/checkout/wh/```. Select 'receive all events' and click 'add endpoint'.
 #
 
 ## Testing
@@ -515,20 +611,21 @@ I used the code from the Code Institute modules on the Boutique Ado project as a
 
 ### Content
 
-All content for the app, such as instructions and modal messages were written by myself.
-For proof of concept some dummy content has already been created such as projects and outstanding tasks, this was written by myself.
+All content for the site, such as the product descriptions were written by myself.
 
 ### Media
 
-Logo was designed by myself using Canva design tools and is copyright free.
+Logo was designed by myself using Canva design tools.
+
+All images used on the site are free to use for non commercial use and sourced from [Pexels](https://www.pexels.com/)
 
 ### Acknowledgments
 
 I would like to acknowledge the following people:
 
-* My Code Institute Mentor and Class Teacher 
+* My Code Institute Class Teacher.
 
-* My fellow class-mates  - For sharing all their struggles and accomplishments along the way with tackling Milestone project 4.
+* My fellow class-mates  - For sharing all their struggles and accomplishments along the way with tackling this Milestone project.
 
 * The Code Institute Slack channel - Thanks to everyone that took the time to share their tips and advice.
 #
