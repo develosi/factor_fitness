@@ -43,7 +43,7 @@ In its current form the site has many features missing that I would like to add 
 #### First time Visitor Goals 
 
 * I want the site to be clear so that I immediately know what the site is intended for upon entering.
-* I want to be able to easily find and purchase products securely.
+* I want to be able to easily find and purchase products.
 * I want the e-commerce store to work well on all kinds of devices like mobile phones, tablets and desktops.
 * I want to easily navigate the site by using the navigation menu.
 * I want an easy way to search and sort products that are relevant to me.

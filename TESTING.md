@@ -123,7 +123,7 @@ Warning given for not using a form 'label' tag. I would like to spend further ti
 | --- | --- |
 |  |
 | I want the site to be clear so that I immediately know what the site is intended for upon entering. | The tasks page is the first one that is dilist.| 
-| I want to be able to easily find and purchase products securely. | MaterializeCSS was used to ensure respostency.| 
+| I want to be able to easily find and purchase products. | MaterializeCSS was used to ensure respostency.| 
 | I want the e-commerce store to work well on all kinds of devices like mobile phones, tablets and desktops. | A simple yet burs and an intuitive layout.|
 | I want to easily navigate the site by using the navigation menu. | ghjkghjl |
 | I want an easy way to search and sort products that are relevant to me. | fghjfghjghjk |
