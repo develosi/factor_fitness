@@ -103,9 +103,14 @@ Results for mobile.
 
 I have used the WAVE testing tool to try and ensure there are no accessibility issues with the site.
 
-The report came back...... 
+The report came back with the following warnings: 
 
-The error was......... 
+Warning giving for contrast usage of the green logo text on the white background. 
+In future I would like to have used a border or some other feature around the logo section. 
+
+Warnings given for usage of buttons with no text details such as for the search bar. As I have used placeholder text in the input field I have decided to ignore this warning. 
+
+Warning given for not using a form 'label' tag. I would like to spend further time on this to create an appropiate label as I have not given forms labels in the past. 
 
 ---
 
@@ -117,25 +122,46 @@ The error was.........
 | Goals | How are they achieved? |
 | --- | --- |
 |  |
-| I want to access and see the current list of outstanding debugging/testing tasks to be completed. | The tasks page is the first one that is displayed when opening the app, allowing the user quick access to the current task list.| 
-| I want the app to be functional, easy to use and responsive on my device. | MaterializeCSS was used to ensure responsiveness across multiple devices and design components used to maintain consistency.| 
-| I want the app to be simple in its layout, easy to understand and navigate. | A simple yet bold design was used throughout the app to ensure ease of use. Using high contrasting colours and an intuitive layout.|
+| I want the site to be clear so that I immediately know what the site is intended for upon entering. | The tasks page is the first one that is dilist.| 
+| I want to be able to easily find and purchase products securely. | MaterializeCSS was used to ensure respostency.| 
+| I want the e-commerce store to work well on all kinds of devices like mobile phones, tablets and desktops. | A simple yet burs and an intuitive layout.|
+| I want to easily navigate the site by using the navigation menu. | ghjkghjl |
+| I want an easy way to search and sort products that are relevant to me. | fghjfghjghjk |
+| I want to be able to securely purchase a product with feedback of where I am in the process and the current status of that purchase. | fhgkghjkghj |
+| I want the site to be visually appealing and easy to read. | fghjfghk |
+| I want to be able to register as a returning user to save my details for future orders. | fytkfghuykguy |
+| I want to be able to get in contact via social media so that I can follow and contact the team. | fgkfghk |
+| I want to be able to add a product to the shopping bag and view the total value of the order. | fyfgyuk |
+| I want to view product details and images so I can see the product closer up and in more detail. | ftyfghku |
+| I want to be able to update and delete products in the shopping bag to be in full control of the purchase. | fghkfggj |
+| I want to view my order details to be able to confirm everything before final purchase. | fyhjfghkgh |
+| I want a clear indication of how to pay as well as an easy and secure method to pay for products with my card details. | fgkkfghkghk |
+| I want to receive appropriate feedback of the order success or failure to ensure the purchase has gone through. | fghkfghjkghjk |
 #
 
 `Returning Visitor Goals`
 | Goals | How are they achieved? |
 | --- | --- |
 |  |
-| I want to be able to create, update and delete the current list of outstanding debugging/testing tasks to be completed. | Using MaterializeCSS components a simple layout was created that allows users to create, read, update and delete all tasks. Admin users are also able to have full CRUD functionality with projects as well as tasks.|
+| To be able to log back into the site with my created username, email and password. | Using Material functiy with projects as well as tasks.|
+| To view my profile page to see my order history. | ftyfyukgfyuk |
+| To be able to log in and view, edit, add, delete my personal info. | fykfyhukghuilk |
 #
 
 `Frequent Visitor Goals`
 | Goals | How are they achieved? |
 | --- | --- |
 |  |
-| I want to be able to quickly see the current list of outstanding tasks and also what progress has been done on them. | The tasks section is the first section you see when opening the app. I failed to create the functionality to be able to have a task broken down into sections. This can be added in the future.| 
-| I want the project manager to have admin access so new projects can be created or old ones deleted. | An admin role was created that has full access to add or delete projects. Normal users can then add tasks associated with that project.| 
-| I want to be able to assign tasks to specific users and receive notifications when tasks are overdue. | Given the time frame I had I did not manage to add in this functionality. This can be added in the future. The notifications feature maybe unnecessary.|
+| When clicking on social media links I want the page to open in a separate browser tab. | The tasks sect into sections. This can be added in the future.| 
+| I want to be able to easily and quickly see any new products or offers. | An admin role was created that has futhat project.| 
+#
+
+`Admin User Goals`
+| Goals | How are they achieved? |
+| --- | --- |
+|  |
+| I want to be able to view, search, edit and delete products. | The tasks sect into sections. This can be added in the future.| 
+| I want to be able to log into the product management section so I can add products to the database. | An admin role was created that has futhat project.| 
 #
 
 ---
