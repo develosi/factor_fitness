@@ -122,46 +122,46 @@ Warning given for not using a form 'label' tag. I would like to spend further ti
 | Goals | How are they achieved? |
 | --- | --- |
 |  |
-| I want the site to be clear so that I immediately know what the site is intended for upon entering. | The tasks page is the first one that is dilist.| 
-| I want to be able to easily find and purchase products. | MaterializeCSS was used to ensure respostency.| 
-| I want the e-commerce store to work well on all kinds of devices like mobile phones, tablets and desktops. | A simple yet burs and an intuitive layout.|
-| I want to easily navigate the site by using the navigation menu. | ghjkghjl |
-| I want an easy way to search and sort products that are relevant to me. | fghjfghjghjk |
-| I want to be able to securely purchase a product with feedback of where I am in the process and the current status of that purchase. | fhgkghjkghj |
-| I want the site to be visually appealing and easy to read. | fghjfghk |
-| I want to be able to register as a returning user to save my details for future orders. | fytkfghuykguy |
-| I want to be able to get in contact via social media so that I can follow and contact the team. | fgkfghk |
-| I want to be able to add a product to the shopping bag and view the total value of the order. | fyfgyuk |
-| I want to view product details and images so I can see the product closer up and in more detail. | ftyfghku |
-| I want to be able to update and delete products in the shopping bag to be in full control of the purchase. | fghkfggj |
-| I want to view my order details to be able to confirm everything before final purchase. | fyhjfghkgh |
-| I want a clear indication of how to pay as well as an easy and secure method to pay for products with my card details. | fgkkfghkghk |
-| I want to receive appropriate feedback of the order success or failure to ensure the purchase has gone through. | fghkfghjkghjk |
+| I want the site to be clear so that I immediately know what the site is intended for upon entering. | When a visitor first arrives on the homepage they greeted immediately with a banner explaining what the store is and what it sells, along with a bold call to action button.| 
+| I want to be able to easily find and purchase products. | The main products nav bar is fixed to the top of the screen for desktop with categories and sub categories in the dropdown menus for the products that are available.| 
+| I want the e-commerce store to work well on all kinds of devices like mobile phones, tablets and desktops. | Bootstrap has been used on all the template pages to ensure a fully responsive design that can be viewed on all screen sizes.|
+| I want to easily navigate the site by using the navigation menu. | The nav bar is clear and easy to understand on the desktop version. The same nav bar content is used on the mobile version but with the use of dropdown menus so that it can fit on the screen. |
+| I want an easy way to search and sort products that are relevant to me. | The store search bar is bold and centre at the top of the main nav bar with placeholder text. |
+| I want to be able to securely purchase a product with feedback of where I am in the process and the current status of that purchase. | The card input section is clearly defined on the checkout page. A loading spinner is displayed after submitting your card details and is being checked with the Stripe API. A success or failure message is displayed after communication with Stripe API. |
+| I want the site to be visually appealing and easy to read. | I have tried to keep the colours and layout as minimal and clean as possible. With whites and blacks and just highlights of green throughout. This is to give the impression of a modern fitness gym feel. |
+| I want to be able to register as a returning user to save my details for future orders. | Users are invited to sign up. Upon signing up users are then able to access the profile section where they can save address details for future orders. |
+| I want to be able to get in contact via social media so that I can follow and contact the team. | Social media links are available on the footer section of every page that opens in a new browser tab. With more time I would have liked to add a dedicated contact page section. |
+| I want to be able to add a product to the shopping bag and view the total value of the order. | Via the products details pages a user is able to add to their shopping bag, then click on the shopping bag icon at any time to see the full total amount. |
+| I want to view product details and images so I can see the product closer up and in more detail. | Via the product details page a user can click on the image and a larger version of the image will open in a new tab. |
+| I want to be able to update and delete products in the shopping bag to be in full control of the purchase. | Users are able to ‘update’ quantities or ‘remove’ items from the shopping bag on the shopping bag section. |
+| I want to view my order details to be able to confirm everything before final purchase. | On the checkout page the user is able to see a summary of all the order details and the total final price they will be charged. |
+| I want a clear indication of how to pay as well as an easy and secure method to pay for products with my card details. | I have kept the form section at the checkout stage as simple as possible to keep it intuitive for the user. With more time I would have liked to add more details regarding Stripe with perhaps a Stripe logo at the checkout stage. This is to give the user comfort that it is being processed by a well known payment processor. |
+| I want to receive appropriate feedback of the order success or failure to ensure the purchase has gone through. | The user is shown a success or failure message after the card details have been processed and communication is complete with the Stripe API. |
 #
 
 `Returning Visitor Goals`
 | Goals | How are they achieved? |
 | --- | --- |
 |  |
-| To be able to log back into the site with my created username, email and password. | Using Material functiy with projects as well as tasks.|
-| To view my profile page to see my order history. | ftyfyukgfyuk |
-| To be able to log in and view, edit, add, delete my personal info. | fykfyhukghuilk |
+| To be able to log back into the site with my created username, email and password. | Users are able to create log in details on the sign up section. Users can then come back to the site and log in with these saved details.|
+| To view my profile page to see my order history. | After a user has logged in they can see their previous orders via the profile page section. |
+| To be able to log in and view, edit, add, delete my personal info. | Via the profile page section a user is able to update the delivery address they would like to use. With more time I would have liked to add more features to this section, such as the ability to change a users password and username/email. |
 #
 
 `Frequent Visitor Goals`
 | Goals | How are they achieved? |
 | --- | --- |
 |  |
-| When clicking on social media links I want the page to open in a separate browser tab. | The tasks sect into sections. This can be added in the future.| 
-| I want to be able to easily and quickly see any new products or offers. | An admin role was created that has futhat project.| 
+| When clicking on social media links I want the page to open in a separate browser tab. | Links for the social media sites are set up so that they open in a new browser tab. | 
+| I want to be able to easily and quickly see any new products or offers. | By clicking on the offers link on the nav bar users are able to see all latest offers or via the dropdown menu access any new products. | 
 #
 
-`Admin User Goals`
+`Superuser / Admin User Goals`
 | Goals | How are they achieved? |
 | --- | --- |
 |  |
-| I want to be able to view, search, edit and delete products. | The tasks sect into sections. This can be added in the future.| 
-| I want to be able to log into the product management section so I can add products to the database. | An admin role was created that has futhat project.| 
+| I want to be able to view, search, edit and delete products. | Once a superuser/admin is logged in they have all functionality as a normal user and can search for all products they would like to view. Via the products pages a superuser/admin can edit or delete the products by clicking on the displayed buttons. | 
+| I want to be able to log into the product management section so I can add products to the database. | After a superuser/admin has logged in they can access the product management section via the nav bar by clicking on the account section. From here they can add new products as well as add product images. | 
 #
 
 ---
@@ -183,83 +183,122 @@ Each device tested the site using the following browsers:
 * Safari
 * Firefox
 
-Additional testing was done by friends and family on a variety of devices. 
+Additional testing was done by friends and family on a variety of devices with the following feedback: 
 
-* On small mobile devices such as the iPhone 6 the main logo section on the top nav bar gets cut off slightly, the logo also looks oversized for the screen. 
-* It is not obvious to users that the home screen is also the page where to find current tasks. The home page should have been renamed to "Tasks" to make it more obvious.
-* The ......... 
-* It was not....... 
+* On mobile devices the checkout page section is too squashed with not enough room to update quantities to the shopping bag easily. 
+* Unable to see the logo on mobile view at top nav bar. Feedback was to add the logo for mobile device view.
+* Add more products to the store and have more sections on the product details page such as technical details and specifications. 
+* Be able to change password on the profile section. 
+* Have a contact page and an 'about us' page. 
+* Text is too small on nav bar banner that explain shipping cost is free on orders over $40. 
 #
 
-`Tasks Page`
+`Home Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Add Task Button | When clicked the user will be redirected to the add task page.| Clicked button. | Redirected to the add task page. | Pass |
-| Drop Down Menu Button | When clicked the user will be shown details of the task and buttons to edit or delete.| Clicked button. | Task details are displayed along with edit and delete buttons. | Pass |
-| Task Edit Button | When clicked the user will be redirected to the edit task page.| Clicked button. | Redirected to the edit task page. | Pass |
-| Task Delete Button | When clicked the user will see a modal confirming if they want to delete.| Clicked button. | Modal is displayed asking to confirm if user wants to Delete or Cancel. | Pass |
+| Shop Now Button | When clicked the user will be redirected to the all products page.| Clicked button. | Redirected to the products page showing all products. | Pass |
 #
 
-`Register Page`
+`Sign Up Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Username Input | New user is able to input a new username that is at least five characters long.| Input a new username. | Username input with green underline confirming ok to use. | Pass |
-| Password Input | New user is able to input a new password that is at least five characters long.| Input a new password. | Password input with green underline confirming ok to use. | Pass |
-| Register Button | When clicked the user account will be created and the user taken to the profile page.| Clicked button. | Redirected to profile page showing new username. | Pass |
+| New user details input | New user is able to input a new user details including username, email and password.| Input a new user details using temp-mail email address and click on sign up button. | I am redirected to the 'verify email' instruction page and I recieve my confirmation email. | Pass |
 #
 
-`Log In Page`
+`Verify Your Email Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Username Input | User is able to input username.| Input username. | Username input with green underline confirming ok. | Pass |
-| Password Input | User is able to input password.| Input password. | Password input with green underline confirming ok. | Pass |
-| Log In Button | When clicked the user will be taken to the profile page.| Clicked button. | Redirected to profile page showing username. | Pass |
+| See the 'Verify your email address' and confirmation email | User is redirected to 'Verify your email' page after signing up and recieves confirmation email.| Do a new user sign up test and complete details on sign up page. | I am redirected to the 'Verify your email' page and I see the confirmation email in my inbox. | Pass |
+#
+
+`Confirm Your Email Address Page`
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| See the conifrm email address page along with 'Confirm' button to click. | After opening the confirmation URL that was sent to me email address I will see the conifrm email address page along with the 'Confirm' final button to press.| Open the URL in the Factor Fitness confirmation email in a new browser tab. | I am redirected to the 'Confirm Email' page and I see the 'Confirm' button to press. | Pass |
+#
+
+`Login Page`
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| Log into the webiste via the 'Sign In' page with my registered details | After inputting my log in details I will be logged into the website. | Enter my confirmed registered details into the input fields. | Redirected to home page and I am logged into the site | Pass |
 #
 
 `Profile Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Username Displayed | When on profile page the username is displayed.| Click on profile page. | Username is displayed at top of profile page along with the word 'profile'. | Pass |
+| Able to add my shipping address details and save them | Input my shipping address details in the form and save them. I am then able to come back to them in my profile and see they are saved. | New shipping address details entered into the form and clicked 'Update Information'. | After inputting shipping details and clicking 'Update Information' I went to other parts of the website and came back to the profile section and could see my details had been saved. | Pass |
 #
 
-`Projects Page`
+`Products Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Add Project 'Plus' Button | When clicked the user will be redirected to the add project page.| Clicked button. | Redirected to the add project page. | Pass |
-| Project Edit Button | When clicked the user will be redirected to the edit project page.| Clicked button. | Redirected to the edit project page. | Pass |
-| Project Delete Button | When clicked the user will see a modal confirming if they want to delete.| Clicked button. | Modal is displayed asking to confirm if user wants to Delete or Cancel. | Pass |
+| View products and am able to filter them using the nav bar menus | The user sees all the products they wish to see by using the nav bar buttons and dropdown menus.| I clicked on the 'All Products' page and then chose other options in the nav bar by categories to conifrm I saw a filtered view of products. | All products were filtered as per the dropdown menu items in the nav bar. | Pass |
 #
 
-`Edit Project Page`
+`Product Details Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| New Project Name Input | User is able to input a new project name.| Input a new project name. | New project name input with green underline confirming ok. | Pass |
-| Edit Project Button | When clicked the user will be redirected to the projects page showing new project name.| Clicked button. | Redirected to the projects page seeing new project name. | Pass |
+| Adjust quantity I would like to order | User is able to adjust quantity they would like to purchase by clicking on the plus and minus icons. | I clicked on the plus and minus icons on the product details page to confirm the quantity would change. | Quantity amount changed as per my clicks on the plus and minus icons. | Pass |
+| 'Add to bag' Button | When clicked the user will have the amount ordered added to the shopping bag ready for checkout. | Clicked button. | I can see the grand total amount on the shopping bag icon has increased as per my order and I can see a toast message alert saying 'Success' and a summery of the order details. | Pass |
 #
 
-`Add Project Page`
+`Shopping Bag Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| New Project Name Input | User is able to input a new project name.| Input a new project name. | New project name input with green underline confirming ok. | Pass |
-| Add Project 'Plus' Button | When clicked the user will be redirected to the projects page showing new project.| Clicked button. | Redirected to the projects page seeing new project. | Pass |
+| Adjust quantity of my ordered items or delete them | User is able to adjust the quantity of each ordered item or delete it completely. | Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
+| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
 #
 
-`Add Task Page`
+`Checkout Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Add Data to Add Task Card | User is able to input data in sections in card.| Input all data in input fields to create a task. | All input fields completed and populated. | Pass |
-| Add Task 'Plus' Button | When clicked the user will be redirected to the tasks page showing new task.| Clicked button. | Redirected to the tasks page seeing new task. | Pass |
+| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
+| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
 #
 
-`Edit Task Page`
+`Checkout Success Page`
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
+| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+#
+
+`Add a Product Page`
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
+| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+#
+
+`Edit a Product Page`
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
+| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+#
+
+`Product Edit and Delete Sections`
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
+| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+#
+
+`Log Out Confirmation Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
@@ -271,10 +310,11 @@ Additional testing was done by friends and family on a variety of devices.
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Debugist Logo Link | When clicked the user will be redirected to the tasks/home page.| Clicked link. | Redirected to the tasks/home page. | Pass |
-| Nav Bar Links | When clicked the user will be redirected to the related page.| Clicked links. | Redirected to the correct related page. | Pass |
-| Footer Page Logo Link | When clicked the user will be redirected to the tasks/home page.| Clicked link. | Redirected to the tasks/home page. | Pass |
-| Footer Page Social Links | When clicked a new tab will be opened in the browser for the related social media website.| Clicked links. | New tab opens for social media website in browser. | Pass |
+| Factor Fitness Logo Link | When clicked the user will be redirected to the home page.| Clicked link. | Redirected to the home page. | Pass |
+| Nav Bar Links and dropdown menus | When clicked the user will be redirected to the related page or dropdown menu appears.| Clicked links. | Redirected to the correct related page or menu expanded. | Pass |
+| Site wide search bar | When a term is entered into the search bar and then the serach icon clicked the related products to that term will be shown.| Searched for the word 'yoga'. | Yoga related products were shown. | Pass |
+| Footer Logo Link | When clicked the user will be redirected to the home page.| Clicked link. | Redirected to the home page. | Pass |
+| Footer Social Media Links | When clicked a new tab will be opened in the browser for the related social media website.| Clicked links. | New tab opens for social media website in browser. | Pass |
 #
 
 ---
