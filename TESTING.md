@@ -254,56 +254,51 @@ Additional testing was done by friends and family on a variety of devices with t
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Adjust quantity of my ordered items or delete them | User is able to adjust the quantity of each ordered item or delete it completely. | Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
-| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+| Adjust quantity of ordered items or delete them | User is able to adjust the quantity of each ordered item or delete it completely. | I adjusted the quantity of the amount of one item by clicking the plus icon and then clicking 'Update'. I deleted another from the shopping bag by clicking 'Remove'. | One item quantity amount was adjusted and the other item was deleted from my shopping bag. | Pass |
+| Proceed to secure checkout | When clicked the user will be redirected to the secure checkout page showing the items in the shopping bag.| Clicked button. | Redirected to the checkout page seeing items from shopping bag. | Pass |
 #
 
 `Checkout Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
-| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+| Enter my full details including shipping details | User is able to input all relevent details including shipping details so it is stored on the form. Note that the shipping address details would have already been input if saved in the profile section. | Input all data required into the input fields of the form. | All input fields completed and populated with my user details. | Pass |
+| Enter card details for payment | User is able to input card details and then have it be checked by the connected Stripe API. | Input Stripe testing card data '4242 4242 4242 4242'. Then clicked on 'Complete Order'. | Loading spinner icon with green background appears confirming that it is connecting with Stripe and waiting for result. | Pass |
 #
 
 `Checkout Success Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
-| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+| Payment success confirming page with summary and confirmation email | User is given a 'Thank you' message for your order along with a toast alert confirming success. You also seee a summary of the complete order and will get a confirmation email.| Input all card details on previous screen and waited for spinning icon to complete. | I see a 'Thank you' message along with a summary of the order. I also see the success toast alert and the conifirming email in my inbox. | Pass |
 #
 
 `Add a Product Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
-| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+| Superuser / Admin is able to add products to the site | By going to the product management section the superuser can then add a new product via a form and add an image also.| Click on 'Product Management' from the account nav bar item. Enter a new product details in the form input fields. Upload an image. Then click on 'Add Product'. | When I go to the products section I can now see the product that I added. | Pass |
 #
 
 `Edit a Product Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
-| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+| Superuser can edit an existing product | Superuser is able to edit a products details.| I go to the products page and click on the 'Edit' button next to the product I wish to edit. I then am redirected to the 'Edit Product' page and I can adjust any details on that page. I then click 'Update Product'. | I can see the changes that I have made to that product when I now view it along side all the otder products on the site. | Pass |
 #
 
 `Product Edit and Delete Sections`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
-| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+| Superuser can edit or delete products. | Superuser is able to access the edit section or delete a product via the products page. | Go to products pages and check to see I see the edit or delete buttons. I click on a test product I have just added to conifrm it will be deleted. | Clicking the 'Edit' button takes me to the edit product section and the 'Delete' bustton deleted the test product I wish to delete. | Pass |
 #
 
 `Log Out Confirmation Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Update Data to Edit Task Card | User is able to update data in sections in card.| Input all data in input fields to edit task. | All input fields completed and populated, except the project menu does not automatically show current project and needs to be selected manually. | Fail |
-| Edit Task Button | When clicked the user will be redirected to the tasks page showing updated task.| Clicked button. | Redirected to the tasks page seeing updated task. | Pass |
+| I can log out 'sign out' and confirm this. | User is able to log out of the site and on the final sign out page they will have to confirm first. | I sign out of the site and then click on the 'Sign Out' button to confirm this. | I am signed out of the website. | Pass |
 #
 
 `Base Template Sections`
