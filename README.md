@@ -370,6 +370,10 @@ HTML, CSS, Javascript, Python
 
 * [SQLite](https://www.sqlite.org/index.html) - Django built-in database used as the database in development mode.
 
+* [JSON Formatter](https://jsonformatter.org/) - JSON format testing tool used to confirm JSON files.
+
+* [IMG BOX](https://imgbox.com/) - Used to host images of products outside of AWS cloud.
+
 * [Heroku](https://www.heroku.com/) - Cloud platform used for deploying the website.
 
 * [AWS](https://aws.amazon.com/) - Amazon Web Services used for hosting static files and images for the site.
